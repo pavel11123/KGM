@@ -24,7 +24,7 @@
             <h2 class="header__title">Ваш личный геодезист с выездом по Москве и области</h2>
             <div class="header__connection">
               <a href="tel:+79775049130" class="phone header__phone">+7 (977) 504-91-30</a>
-              <button class="callback">Заказать обратный звонок</button>
+              <button type="button" id="popup" class="callback">Заказать обратный звонок</button>
             </div>
           </div>
           <div class="header-bottom">
@@ -90,7 +90,9 @@
             </div>
             <div class="start__block start__block-right">
               <div class="start__img">
-                <img src="main/img/photo/Banner-1.png" alt="banner-house">
+                <img src='main/img/photo/Banner-1.png' alt='Фото 1' id="image_1" />
+
+                <!-- <img src='main/img/photo/Banner-2.png' alt='Фото 2' id="image_2"/> -->
               </div>
             </div>
           </div>
@@ -232,6 +234,13 @@
         </div>
       </div>
     </footer>
+  </div>
+
+  <div class="popup">
+    <div class="cart-body">
+
+      <div class="cart-close"></div>
+    </div>
   </div>
 
 </body>
