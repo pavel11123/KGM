@@ -71,10 +71,11 @@ body {
 .callback,
 .menu__a {
 	color: var(--color-white);
+	transition: text-shadow .3s;
 }
 
 .menu__a:hover {
-	font-weight: 600;
+	text-shadow: 0 0 .65px #333, 0 0 .65px #333;
 }
 
 .header__title {
@@ -1116,4 +1117,36 @@ body {
 	.slideshow-item-text p {
 		font-size: 13px;
 	}
+}
+
+
+/* Services / Услуги */
+
+.services__main {
+	margin-top: 75px;
+}
+
+.services__subtitle {
+	margin-bottom: 90px;
+}
+
+.services__box {
+	display: flex;
+	flex-direction: row;
+}
+
+.services__box-left {
+	display: flex;
+	flex-direction: column;
+}
+
+.services__box-right {}
+
+.services__item {}
+
+.services__item-desc {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
 }
