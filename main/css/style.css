@@ -73,6 +73,10 @@ body {
 	color: var(--color-white);
 }
 
+.menu__a:hover {
+	font-weight: 600;
+}
+
 .header__title {
 	max-width: 325px;
 	font-weight: 400;
